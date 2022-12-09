@@ -1,0 +1,22 @@
+{
+  "settings": {
+    "LSP": {
+      "LSP-typescript": {
+        "enabled": true
+      },
+      "Deno": {
+        "enabled": true,
+        "command": ["/Users/joeks2/.deno/bin/deno", "lsp"],
+        "settings": {
+          "lsp_format_on_save": true,
+          "deno.config": "./deno.json",
+          "deno.importMap": "./import-map-dev.json",
+        }
+      }
+    }
+  },
+  "folders":
+  [
+      {"path": "."}
+  ]
+}

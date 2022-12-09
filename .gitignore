@@ -1,0 +1,7 @@
+node_modules/
+dest/
+.parcel-cache/
+dist/
+**/tsconfig.tsbuildinfo
+**/.DS_Store
+

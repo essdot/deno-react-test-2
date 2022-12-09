@@ -1,0 +1,19 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.130.0/",
+    
+    "mock_fetch": "https://deno.land/x/mock_fetch@0.3.0/mod.ts",
+
+    "react": "https://esm.sh/react@18.2.0?dev&pin=v99",
+    "react-dom": "https://esm.sh/react-dom@18.2.0?dev&pin=v99",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0?dev&pin=v99/client",
+
+    "@testing-library/react": "https://esm.sh/@testing-library/react@13.4.0?dev&pin=v99",
+    "@testing-library/react/pure": "https://esm.sh/@testing-library/react@13.4.0/pure?dev&pin=v99",
+    "@testing-library/dom": "https://esm.sh/@testing-library/dom@8.19.0?dev&pin=v99",
+    "@testing-library/user-event": "https://esm.sh/@testing-library/user-event@14.4.3?dev&pin=v99",
+    "deno-dom": "https://deno.land/x/deno_dom/deno-dom-wasm.ts",
+
+    "https://cdn.esm.sh@types/": "https://cdn.esm.sh/@types/"
+  }
+}

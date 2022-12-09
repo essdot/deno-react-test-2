@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": [
+            "dom",
+      "deno.ns",
+      "deno.unstable"
+
+    ],
+    "strict": true
+  },
+  "importMap": "import-map.json",
+  "lint": {
+    "files": {
+      "include": ["src/", "test/"],
+      "exclude": ["util", "deps-bundle/"]
+    },
+    "rules": {
+      "tags": ["recommended"],
+      "include": ["ban-untagged-todo"]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": ["src/", "test/"],
+      "exclude": ["util/", "deps-bundle/"],
+    },
+    "options": {
+      "useTabs": false,
+      "lineWidth": 80,
+      "indentWidth": 2,
+      "singleQuote": true,
+      "proseWrap": "preserve"
+    }
+  },
+  "test": {
+    "files": {
+      "include": ["test/"],
+      "exclude": ["deps-bundle/"]
+    }
+  },
+  "tasks": {
+    "test": "deno test --import-map import-map-dev.json --allow-env  --location=http://localhost --fail-fast"
+  }
+}
